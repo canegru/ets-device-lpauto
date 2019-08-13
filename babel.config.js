@@ -18,6 +18,7 @@ const presets = [
 
 const plugins = [
     'transform-es2015-arrow-functions',
+    '@babel/transform-runtime',
 ];
 
 module.exports = { presets, plugins };
